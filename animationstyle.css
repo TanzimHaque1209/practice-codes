@@ -1,0 +1,87 @@
+.box{
+    height:300px;
+    width: 200px;
+    background-color: pink;
+    
+}
+
+.box:hover{
+    background-color: blueviolet;
+    height: 400px;
+    width: 300px;
+    transition-duration: 3s;
+    transform: rotate(180deg);
+    
+
+}
+/* This is for the hoover effect while clikcing by the mouse/ */
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+}
+
+.div1 .ball{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.sundiv{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.sundiv .sun{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    animation: sun 3s infinite;
+    
+}
+.ball:hover{
+    animation: moving 4s ;
+}
+
+@keyframes moving {
+    from {background-color: red;}
+    to {background-color: purple;}
+  }
+
+  @keyframes sun{
+    0%   {background-color: red;
+        top: 0;
+        left: 0;
+
+    }
+    25%  {background-color: purple;
+        top: 0;
+        left: 150px;
+    
+    }
+    50%  {background-color: blue;
+        top: 150px;
+        left: 150px;
+    
+    }
+
+    75%  {background-color: orange;
+        top: 150px;
+        left: 0px;
+    
+    }
+
+    100% {background-color: green;
+        top: 0;
+        left: 0;
+    
+    }
+  }
+  

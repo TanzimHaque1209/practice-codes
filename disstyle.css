@@ -1,0 +1,41 @@
+/* ECHO is on. */
+
+span{
+    color: green;
+    /* margin-top: 20px; */
+    border: 2px solid black;
+    display: block;
+    width: 80px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* This is an inline tag and it can only take margins on left and right side and width and height is not going to work on inline tags.*/
+
+.firstlist li{
+    display: inline;
+    margin: 20px;
+    border: 5px solid black;
+}
+/* A block tag can also be made using CSS styling */
+
+.secondlist li{
+    border: 5px solid black;
+    margin-bottom: 20px;
+}
+/* examining the block tag of li */
+.secondlist{
+    list-style: none;
+}
+/* The dot in the ul is removed */
+#thirdlist li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#thirdlist li a{
+    text-decoration: none;
+    color: brown;    
+}

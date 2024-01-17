@@ -1,0 +1,61 @@
+p{
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    
+}
+
+.main-section{
+    border: 5px solid black;
+    height: 250px;
+    width: 500px;
+    padding: 50px;
+}
+
+.main-section p{
+    border: 5px solid white;
+    padding: 50px;
+}
+h1{
+    text-shadow: 2px 2px 2px black;
+}
+#my-section{
+    border: 5px solid black;
+    width: 800px;
+    margin: 40px;
+ } 
+
+#my-section p{
+    padding: 10px;
+    border: 5px solid grey;
+    border-radius: 50px;
+    width: 400px;
+    margin: 20px auto;
+    color:aqua;
+    text-align: center;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 2px green;
+    
+}
+
+.div1{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.div1 .content{
+    border: 5px solid black;
+    width: 320px;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    height: 100px;
+    /* background-color: blueviolet;  */
+   background-image: url('images/images.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+   background-blend-mode: multiply;
+   color:blue;
+}
+
